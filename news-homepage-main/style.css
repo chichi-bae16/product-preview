@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    color:hsl(236, 13%, 42%);
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 50px;
+}
+
+.first{
+    width: 100%;
+    height: 40vh;
+}
+
+.first img{
+    width: 100%;
+    height: 40vh;
+}
+.enclosure{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.second{
+    background-color: white;
+    width: 100%;
+    height: 15vh;
+}
+
+.second p{
+    color:hsl(240, 100%, 5%);
+    font-size:xx-large;
+}
+
+.third{
+    width: 100%;
+    height: 15vh;
+    color: hsl(233, 8%, 79%);
+    font-size: 2.5vmin;
+    padding-top: 10px;
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    font-size: 2vmin;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fourth{
+    background-color: hsl(240, 100%, 5%);
+    width: 40%;
+    height: 56vh;
+    padding: 20px 20px;
+}
+
+.fourth h2{
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 20px;
+}
+
+.fourth p{
+    color: white;
+}
+
+.car{
+    font-weight: 800;
+}
+
+.will{
+    font-size: 2vmin;
+    padding-top: 10px;
+}
+
+.to{
+    font-size: 2vmin;
+    padding-top: 3px;
+}
+
+.line1{
+    padding-top: 10px;
+}
+
+.down{
+    color: hsl(36, 100%, 99%);
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+.are{
+    font-size: 2vmin;
+    padding-top: 10px;
+}
+
+.gene{
+    font-size: 2vmin;
+    padding-top: 3px;
+}
+
+.line2{
+    padding-top: 10px;
+}
+.vc{
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.firm{
+    font-size: 2vmin;
+    padding-top: 10px;
+}
+
+.yoy{
+    font-size: 2vmin;
+    padding-top: 3px;
+}
+
+.pero{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30vh;
+}
+
+.pero img{
+    height: 30vh;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.two h1{
+    font-weight: 900;
+    color: hsl(233, 8%, 79%);
+}
+
+.retro{
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 3vmin;
+}
+
+.what{
+    font-size: 2vmin;
+    color: hsl(233, 8%, 79%);
+    margin-top: 10px;
+}
+
+.given{
+    color: hsl(233, 8%, 79%);
+    font-size: 2vmin;
+    margin-top: 3px;
+}
+
+.four h1{
+    font-weight: 900;
+    color: hsl(233, 8%, 79%);
+}
+
+.laps{
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 3vmin;
+}
+
+.best{
+    font-size: 2vmin;
+    color: hsl(233, 8%, 79%);
+    margin-top: 5px;    
+}
+
+.need{
+    font-size: 2vmin;
+    color: hsl(233, 8%, 79%);
+    margin-top: 3px;
+}
+
+.six h1{
+    font-weight: 900;
+    color: hsl(233, 8%, 79%);
+}
+
+.games{
+    margin-top: 10px;
+    font-size: 3vmin;
+    font-weight: 900;
+}
+
+.spark{
+    margin-top: 5px;
+    font-size: 2vmin;
+    color: hsl(233, 8%, 79%);
+}
+
+.fresh{
+    margin-top: 3px;
+    font-size: 2vmin;
+    color: hsl(233, 8%, 79%);
+}
+
+
+@media screen and (max-width: 950px) {
+   .hero{
+    display: flex;
+    flex-direction: column;
+   } 
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .fourth{
+    width: 100%;
+   }
+
+   .pero{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .fifth{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .fifth img{
+    width:
+   }
+}
+
+@media only screen and (max-width: 768px){
+    
+}
